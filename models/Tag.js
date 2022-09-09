@@ -4,6 +4,7 @@ const sequelize = require('../config/connection.js');
 
 class Tag extends Model {}
 
+
 Tag.init(
   {
     id: {
@@ -24,5 +25,6 @@ Tag.init(
     modelName: 'tag',
   }
 );
+
 
 module.exports = Tag;
