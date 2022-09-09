@@ -2,10 +2,12 @@
   "name": "chall13",
   "version": "1.0.0",
   "description": "Start",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  
   },
+  "start": "node server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Berserk9000/ORM-challenge13.git"
